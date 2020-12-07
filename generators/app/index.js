@@ -16,13 +16,11 @@ module.exports = class extends Generator {
             desc: "配置文件地址",
             type: String
         });
-
     //this.scriptSuffix = this.options.config ? ".config" : ".js";
     this.getDockerConfigJson = this.getDockerConfigJson.bind(this);
     this._writeTpl = this._writeTpl.bind(this);
     this._translateProps = this._translateProps.bind(this);
   }
-
 /*
   method1() {
     this.log('method 1 just ran');
