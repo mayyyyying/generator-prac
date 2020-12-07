@@ -1,5 +1,6 @@
 var Generator = require('yeoman-generator');
 
+//Acquiring typings...
 module.exports = class extends Generator {
   // The name `constructor` is important here
   constructor(args, opts) {
