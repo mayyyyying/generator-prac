@@ -13,10 +13,8 @@ module.exports = class extends Generator {
             desc: "配置文件地址",
             type: String
         });
-
     //this.scriptSuffix = this.options.config ? ".config" : ".js";
   }
-
 /*
   method1() {
     this.log('method 1 just ran');
